@@ -1,0 +1,26 @@
+{
+  "name": "vindijs",
+  "version": "0.0.1",
+  "description": "a library to connect with vindi payment gateway ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederribeiro/vindijs.git"
+  },
+  "keywords": [
+    "vindi",
+    "nodejs",
+    "payment",
+    "gateway",
+    "client"
+  ],
+  "author": "Eder Ribeiro <eder@ederibeiro.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ederribeiro/vindijs/issues"
+  },
+  "homepage": "https://github.com/ederribeiro/vindijs#readme"
+}
