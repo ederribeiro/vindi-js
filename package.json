@@ -1,9 +1,10 @@
 {
-  "name": "vindijs",
+  "name": "vindi-js",
   "version": "0.0.1",
   "description": "a library to connect with vindi payment gateway ",
-  "main": "index.js",
+  "main": "./lib/vindi.js",
   "scripts": {
+    "pretest": "eslint lib/**",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/ederribeiro/vindijs/issues"
   },
-  "homepage": "https://github.com/ederribeiro/vindijs#readme"
+  "homepage": "https://github.com/ederribeiro/vindijs#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1"
+  }
 }
