@@ -1,7 +1,7 @@
 'use strict';
 
 var Vindi = require('vindi-js'),
-    env = require('../../.env');
+    env = require('../../.env.json');
 
 var client = new Vindi(env.apiKey),
     options = {
