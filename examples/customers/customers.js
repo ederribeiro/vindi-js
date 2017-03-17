@@ -1,11 +1,15 @@
-const Vindi = require('vindi-js');
+'use strict';
 
-const client = new Vindi('APIKEY');
+var Vindi = require('vindi-js'),
+    env = require('../../.env');
 
-client.get({
-  uri: 'customers',
-  debug: false
-}).then((data) => {
+var client = new Vindi(env.apiKey),
+    options = {
+        uri: 'customers',
+        debug: false
+    };
+
+client.get(options).then((data) => {
   console.log('success', data);
 }).catch((err) => {
   console.error('error', err);
