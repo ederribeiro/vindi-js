@@ -1,6 +1,6 @@
 {
   "name": "vindi-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a library to connect with vindi payment gateway ",
   "main": "./lib/vindi.js",
   "scripts": {
